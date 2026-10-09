@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#5a1575"/>
+      <stop offset="70%" stop-color="#460d5b"/>
+      <stop offset="100%" stop-color="#350746"/>
+    </radialGradient>
+    <radialGradient id="flowerCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb300"/>
+      <stop offset="40%" stop-color="#ffd54f"/>
+      <stop offset="85%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </radialGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#1e0026" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Circular background -->
+  <circle cx="256" cy="256" r="256" fill="url(#bg)"/>
+
+  <!-- Subtle watermark Thai/Burmese letters in background -->
+  <g fill="#5f197a" opacity="0.3" font-family="'Noto Sans Thai', 'Noto Sans Myanmar', sans-serif" font-size="34" font-weight="bold">
+    <text x="60" y="90">ก</text>
+    <text x="140" y="70">ข</text>
+    <text x="230" y="80">က</text>
+    <text x="320" y="65">ခ</text>
+    <text x="400" y="90">ง</text>
+    <text x="450" y="160">จ</text>
+    <text x="40" y="180">ฉ</text>
+    <text x="80" y="270">ช</text>
+    <text x="440" y="270">ဂ</text>
+    <text x="430" y="370">ဃ</text>
+    <text x="50" y="380">တ</text>
+    <text x="120" y="450">ထ</text>
+    <text x="250" y="470">ด</text>
+    <text x="360" y="450">ต</text>
+    <text x="400" y="470">น</text>
+    <text x="200" y="140">ป</text>
+    <text x="310" y="140">ผ</text>
+  </g>
+
+  <!-- Plumeria Flower on the left -->
+  <g transform="translate(130, 200)" filter="url(#softShadow)">
+    <!-- 5 Petals -->
+    <!-- Petal 1 - Top -->
+    <path d="M0,0 C-18,-40 -12,-75 10,-85 C32,-75 36,-40 0,0 Z" fill="#ffffff" stroke="#f0e6f2" stroke-width="0.5"/>
+    <!-- Petal 2 - Top Right -->
+    <path d="M0,0 C25,-30 60,-40 75,-20 C80,5 50,25 0,0 Z" fill="#ffffff" stroke="#f0e6f2" stroke-width="0.5"/>
+    <!-- Petal 3 - Bottom Right -->
+    <path d="M0,0 C35,10 65,40 50,65 C30,75 5,50 0,0 Z" fill="#ffffff" stroke="#f0e6f2" stroke-width="0.5"/>
+    <!-- Petal 4 - Bottom Left -->
+    <path d="M0,0 C0,35 -25,65 -50,55 C-65,35 -40,10 0,0 Z" fill="#ffffff" stroke="#f0e6f2" stroke-width="0.5"/>
+    <!-- Petal 5 - Top Left -->
+    <path d="M0,0 C-35,0 -70,-15 -65,-40 C-50,-60 -20,-30 0,0 Z" fill="#ffffff" stroke="#f0e6f2" stroke-width="0.5"/>
+    
+    <!-- Flower Golden Yellow Center with Radial Softness -->
+    <circle cx="0" cy="0" r="28" fill="url(#flowerCenter)"/>
+    <circle cx="0" cy="0" r="14" fill="#ffb300" opacity="0.85"/>
+  </g>
+
+  <!-- Yellow Stylized Script "ထိုင်းစာ" -->
+  <g filter="url(#softShadow)">
+    <!-- First Character: ထိုင်း with bird hook below -->
+    <!-- Custom stylized curves matching the logo -->
+    <path d="M 90 270 
+             C 85 240, 105 210, 135 215 
+             C 150 218, 160 230, 160 248 
+             C 160 230, 175 218, 195 220 
+             C 215 223, 230 245, 220 275 
+             C 210 300, 185 305, 160 295 
+             C 140 305, 105 300, 90 270 Z" 
+          fill="#ffea00" />
+    <path d="M 125 258 C 120 245, 132 235, 142 242 C 150 250, 145 265, 135 265 C 128 265, 125 262, 125 258 Z" fill="#460d5b"/>
+    <path d="M 175 258 C 170 245, 182 235, 192 242 C 200 250, 195 265, 185 265 C 178 265, 175 262, 175 258 Z" fill="#460d5b"/>
+    
+    <!-- Lower hook/beak -->
+    <path d="M 152 300 L 152 360 C 152 365, 158 375, 170 370 C 185 365, 195 360, 180 350 C 168 348, 164 330, 164 300 Z" fill="#ffea00"/>
+
+    <!-- Middle character: swooping curl -->
+    <path d="M 235 240 
+             C 255 170, 290 140, 310 145 
+             C 320 148, 325 158, 305 180 
+             C 285 200, 275 215, 275 245 
+             C 295 225, 325 235, 325 265 
+             C 325 295, 295 305, 270 295 
+             C 245 285, 230 265, 235 240 Z" 
+          fill="#ffea00"/>
+    <circle cx="288" cy="268" r="14" fill="#460d5b"/>
+
+    <!-- Double small curl: း -->
+    <path d="M 335 255 C 330 235, 350 230, 360 245 C 368 258, 355 272, 345 270 C 335 268, 335 260, 335 255 Z" fill="#ffea00"/>
+    <path d="M 358 255 C 353 235, 373 230, 383 245 C 391 258, 378 272, 368 270 C 358 268, 358 260, 358 255 Z" fill="#ffea00"/>
+
+    <!-- စာ character: circle with right open hook -->
+    <path d="M 395 260 
+             C 395 225, 435 220, 455 240 
+             C 475 260, 475 285, 455 300 
+             C 435 315, 395 300, 395 260 Z" 
+          fill="#ffea00"/>
+    <circle cx="435" cy="265" r="20" fill="#460d5b"/>
+
+    <!-- Right-most arc/hook -->
+    <path d="M 470 240 C 485 225, 515 250, 495 285 C 485 305, 470 310, 465 295 C 475 280, 485 260, 470 240 Z" fill="#ffea00"/>
+  </g>
+</svg>

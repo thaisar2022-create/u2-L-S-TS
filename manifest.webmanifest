@@ -1,0 +1,25 @@
+{
+  "name": "ThaiSar Unit 2 · နှုတ်ဆက်ခြင်း",
+  "short_name": "ThaiSar U2",
+  "description": "Thai language Unit 2 for Myanmar learners",
+  "lang": "my",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8f3fa",
+  "theme_color": "#4d1060",
+  "icons": [
+    {
+      "src": "app-icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

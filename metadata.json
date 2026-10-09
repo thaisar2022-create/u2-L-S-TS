@@ -1,0 +1,6 @@
+{
+  "name": "ThaiSar Unit 2 · နှုတ်ဆက်ခြင်း",
+  "description": "Thai listening and speaking mobile web app for Myanmar learners — Unit 2",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
