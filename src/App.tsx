@@ -331,11 +331,10 @@ export default function App() {
           <div className="brandwrap">
             <img
               className="school-logo"
-              src="/school-logo.png"
+              src="https://lh3.googleusercontent.com/pw/AP1GczPYuXPvxRvzAw8JVWIVM8_R2YbM0vyNXbHY7rIHYVNEovOCmVSYeDUwZiyfkD139rCXN9dFdv4wWy5IB7hexjowFwgIyeqga24S30UJfBi19RttJpw=w2400"
               alt="ThaiSar school logo"
               onError={(e) => {
-                // Fallback to SVG or circular badge
-                e.currentTarget.src = '/school-logo.svg';
+                e.currentTarget.src = '/school-logo.png';
               }}
             />
             <div>
